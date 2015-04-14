@@ -1,0 +1,26 @@
+guest501
+niteucoe
+
+Bower is like npm for client-side libraries
+
+bower install bootstrap
+
+makes bower_components directory by default
+touch .bowerrc <- specify where you'd like Bower to install components
+
+{
+    "directory" : "client/vendor"
+}
+
+pipe | means 'string' in Jade
+
+bower install angular
+bower install angular-route <- ngRoute
+
+bower init <- like npm init
+
+controllers get instantiated every time they get used
+
+controllers should be as dumb as possible
+
+npm install body-parser <- for inserting data
